@@ -1,0 +1,29 @@
+body{
+    background-color: #F09838;
+    color: #A03028;
+    width: 50%;
+    margin: 0 auto;
+}
+
+table{
+    width: 800pt;
+    background-color: #FFECC0;
+}
+
+
+.center{
+    text-align: center;
+}
+
+#id{
+    font-size: large;
+    font-weight: bold;
+}
+
+#tudtad{
+    text-align: center;
+    width: 300pt;
+    margin: 0 auto;
+    background-color: #A03028;
+    color: #FFECC0;
+}
