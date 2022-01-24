@@ -1,0 +1,142 @@
+html{
+    background-image: url(hatter.jpg);
+    font-family: Arial;
+}
+
+body{
+    width: 60%;
+    margin: 0 auto;
+
+}
+
+h1{
+    height: 58px;
+    margin: 0;
+    padding: 8px 0;
+    text-transform: uppercase;
+    color: #3366FF;
+}
+
+h2{
+	height: 38px;
+    margin: 0;
+    padding: 4px 0;
+    text-transform: capitalize;
+    color: #3366FF;
+}
+
+.keret{
+	width: 100%;
+    height: 58px;
+    background-color: #333;
+    text-align: center;
+    
+}
+
+.kep{
+    border: dotted 5px blue;
+    float: right;
+}
+
+#lablec{
+    height: 25px;
+    color: #999;
+    background-color: #333;
+    text-align: center;
+    float: none;
+}
+
+#tartalom{
+    width: 80%;
+    margin-left: 200px;
+}
+
+#cim{
+    color: white;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#menu{
+    float: left;
+    margin-left: 0;
+    margin-right: -18%;
+    width: 16%;
+    background-color: #333;
+    border: solid 3px white;
+}
+
+#menu ul li{
+    padding: 10px 0;
+    list-style: url(hopehely.png);
+}
+#menu ul li.aktiv{
+    font-weight: bold;
+}
+#menu a,
+#menu a:link,
+#menu a:visited{
+    color: lightblue;
+}
+#menu a:hover{
+    text-decoration: underline;
+}
+
+
+table{
+    margin: 0;
+    padding: 0;
+    border: solid 1px #fcc;
+    border-collapse: collapse;
+}
+caption{
+    font-size: 22px;
+    padding: 5px;
+    border: solid 1px #fcc;
+    background-color: white;
+}
+th{
+    background-color: #f99;
+    color: #066;
+}
+td{
+    padding: 5px;
+    border: dashed 1px #fcc;
+}
+.aside table{
+    border: solid 2px blue;
+}
+.aside table caption{
+    color: red;
+    padding: 5px;
+    font-weight: bold;
+}
+.aside table th{
+    background-color: #ffc;
+    color: #66f;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.aside table td{
+    background-color: #fff;
+    color: #666;
+    padding-left: 10px;
+}
+
+
+form fieldset{
+    width: 500px;
+    padding: 10px;
+    margin: 10px;
+}
+
+a, a:link, a:visited{
+    text-decoration: none;
+    color: lightblue;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+
